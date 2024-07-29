@@ -1,0 +1,81 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+    section{
+        width: 70vw;
+    }
+
+    div#formulario > h1, p{
+        margin: 10px;
+    }
+
+    div#form > input{
+        width: 85%;
+        padding: 5px;
+    }
+
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px){
+    section{
+        width: 80vw;
+    }
+
+    div#imagem{
+        float: right;
+        width: 30%;
+        height: 100%;
+    }
+
+    div#formulario{
+        float: left;
+        width: 70%;
+        height: 100%;
+    }
+
+    div#formulario > h1, p{
+        margin: 20px;
+        font-size: 1.2em;
+    }
+
+    div#form > input{
+        width: 85%;
+        padding: 5px;
+    }
+
+    div#form, input[type=submit], a{
+        transform: translatey(40px);
+    }
+}
+
+@media screen and (min-width: 1200px){
+    section{
+        width: 80vw;
+    }
+
+    div#imagem{
+        float: right;
+        width: 50%;
+        height: 100%;
+    }
+
+    div#formulario{
+        float: left;
+        width: 50%;
+        height: 100%;
+    }
+
+    div#formulario > h1, p{
+        margin: 20px;
+        font-size: 1.2em;
+    }
+
+    div#form > input{
+        width: 85%;
+        padding: 5px;
+    }
+
+    div#form, input[type=submit], a{
+        transform: translatey(40px);
+    }
+}
